@@ -1,0 +1,41 @@
+.approachCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: 16px;
+  padding: 2.5rem;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.approachCard:hover {
+  transform: translateY(-5px);
+  border-color: rgba(255,255,255,0.2);
+}
+
+.highlight {
+  background: linear-gradient(180deg, rgba(160, 64, 249, 0.05) 0%, var(--bg-card) 100%);
+  border-color: rgba(160, 64, 249, 0.2);
+}
+
+.iconWrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+.error { background: rgba(239, 68, 68, 0.1); color: var(--error); }
+.success { background: rgba(16, 185, 129, 0.1); color: var(--success); }
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.cardText {
+  color: var(--muted);
+  line-height: 1.6;
+}

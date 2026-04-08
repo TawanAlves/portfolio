@@ -1,0 +1,46 @@
+.card {
+  background-color: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.5rem;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.cardHighlight {
+  border-color: #3f3f46;
+  background-color: #111113;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--foreground);
+}
+
+.cardText {
+  color: var(--muted);
+  line-height: 1.6;
+}
+
+.sectionHeader {
+  margin-bottom: 3rem;
+  max-width: 600px;
+}
+
+.sectionTitle {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.sectionSubtitle {
+  color: var(--muted);
+  font-size: 1.1rem;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
